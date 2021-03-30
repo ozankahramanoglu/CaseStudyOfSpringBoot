@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:hsqldb:hsql://localhost/testdb
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
+    username: SA
+  jpa:
+    show-sql: true
+    open-in-view: false
